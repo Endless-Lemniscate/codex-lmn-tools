@@ -1,6 +1,6 @@
 # Codex Security Auditor Plugin
 
-A Codex plugin port of [`danielrosehill/Claude-Security-Auditor-Plugin`](https://github.com/danielrosehill/Claude-Security-Auditor-Plugin). It is a full copy of the original Claude plugin's fleet-auditing workflow, adapted to Codex plugin conventions.
+A Codex plugin port maintained in this repository and based on [`danielrosehill/Claude-Security-Auditor-Plugin`](https://github.com/danielrosehill/Claude-Security-Auditor-Plugin). It keeps the original Claude plugin's fleet-auditing workflow while adapting packaging, invocation, and compatibility behavior for Codex.
 
 The plugin manages a fleet of machines and runs repeatable security audits over SSH. Each machine gets a persistent profile and timestamped report history; audits can be compared across runs to surface drift.
 
