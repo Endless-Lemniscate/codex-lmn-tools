@@ -10,7 +10,7 @@
         "source": "url",
         "url": "https://github.com/Endless-Lemniscate/Codex-Security-Auditor-Plugin.git",
         "ref": "main",
-        "sha": "63acbd4ac6c81cb0201cb61f4ea960eb96a69a20"
+        "sha": "a824c7e5db1ebd919ed05a33d9f3697e8fe78b52"
       },
       "policy": {
         "installation": "AVAILABLE",
