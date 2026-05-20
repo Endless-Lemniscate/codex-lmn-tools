@@ -6,7 +6,7 @@ The marketplace exposes:
 
 - `security-auditor@codex-lmn-tools`
 
-The plugin source is pinned to `Endless-Lemniscate/Codex-Security-Auditor-Plugin` at commit `a824c7e5db1ebd919ed05a33d9f3697e8fe78b52`.
+The `security-auditor` plugin is bundled in this repository at `plugins/security-auditor`, so Codex can read the plugin manifest and interface metadata directly from the marketplace checkout.
 
 ## Codex config
 

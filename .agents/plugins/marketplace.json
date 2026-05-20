@@ -7,10 +7,8 @@
     {
       "name": "security-auditor",
       "source": {
-        "source": "url",
-        "url": "https://github.com/Endless-Lemniscate/Codex-Security-Auditor-Plugin.git",
-        "ref": "main",
-        "sha": "a824c7e5db1ebd919ed05a33d9f3697e8fe78b52"
+        "source": "local",
+        "path": "./plugins/security-auditor"
       },
       "policy": {
         "installation": "AVAILABLE",

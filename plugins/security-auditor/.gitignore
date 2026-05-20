@@ -1,0 +1,49 @@
+# Private and sensitive data
+private/
+*.key
+*.pem
+*.cert
+*.crt
+
+# Machine-specific sensitive data
+machines/*/private/
+machines/*/*.secret
+
+# Audit reports may contain sensitive information
+# Uncomment if you want to keep reports private
+# machines/*/reports/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Log files
+*.log
+
+# System files
+.Trash-*/

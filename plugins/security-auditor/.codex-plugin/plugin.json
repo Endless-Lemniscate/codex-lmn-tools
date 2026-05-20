@@ -1,0 +1,44 @@
+{
+  "name": "security-auditor",
+  "version": "1.1.1",
+  "description": "Register machines and run repeatable Codex-assisted security audits over SSH, with deterministic runtime, dependency, and persistence evidence.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "homepage": "https://github.com/Endless-Lemniscate/codex-lmn-tools/tree/main/plugins/security-auditor",
+  "repository": "https://github.com/Endless-Lemniscate/codex-lmn-tools",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "audit",
+    "ssh",
+    "sysadmin",
+    "fleet"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Auditor",
+    "shortDescription": "Run repeatable SSH security audits with runtime evidence",
+    "longDescription": "Security Auditor manages a fleet of machine profiles, runs repeatable security audits over SSH using a remote AI agent when available plus deterministic runtime, dependency, outbound-connection, and persistence checks, stores timestamped reports, and compares audit drift across runs.",
+    "developerName": "Daniel Rosehill",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Endless-Lemniscate/codex-lmn-tools/tree/main/plugins/security-auditor",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Set up Security Auditor.",
+      "Add a machine for auditing.",
+      "Audit a registered machine."
+    ],
+    "brandColor": "#991B1B",
+    "composerIcon": "./assets/security-auditor.svg",
+    "logo": "./assets/security-auditor.svg",
+    "screenshots": []
+  }
+}

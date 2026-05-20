@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28" fill="#2A0D0D"/>
+  <path d="M64 16L100 29V57C100 82.5 85.2 103.9 64 113C42.8 103.9 28 82.5 28 57V29L64 16Z" fill="#991B1B"/>
+  <path d="M64 25L91 34.8V58C91 78.7 80.1 95.4 64 103C47.9 95.4 37 78.7 37 58V34.8L64 25Z" fill="#3A1111"/>
+  <path d="M42 47C42 42.6 45.6 39 50 39H78C82.4 39 86 42.6 86 47V81C86 85.4 82.4 89 78 89H50C45.6 89 42 85.4 42 81V47Z" fill="#FFF7ED"/>
+  <path d="M42 47C42 42.6 45.6 39 50 39H78C82.4 39 86 42.6 86 47V54H42V47Z" fill="#DC2626"/>
+  <circle cx="51" cy="46.5" r="2.5" fill="#FFF7ED"/>
+  <circle cx="60" cy="46.5" r="2.5" fill="#FFF7ED"/>
+  <circle cx="69" cy="46.5" r="2.5" fill="#FFF7ED"/>
+  <path d="M54 65L62 72L54 79" stroke="#991B1B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M67 79H78" stroke="#991B1B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M33 30.8L64 19.7L95 30.8V57C95 79.3 82.8 97.4 64 106.8C45.2 97.4 33 79.3 33 57V30.8Z" stroke="#FECACA" stroke-opacity="0.35" stroke-width="3"/>
+</svg>
