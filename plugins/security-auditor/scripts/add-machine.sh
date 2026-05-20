@@ -60,9 +60,9 @@ prompt_menu() {
     shift
     local options=("$@")
 
-    echo -e "${BLUE}${prompt}${NC}"
+    echo -e "${BLUE}${prompt}${NC}" >&2
     for i in "${!options[@]}"; do
-        echo "  $((i+1)). ${options[$i]}"
+        echo "  $((i+1)). ${options[$i]}" >&2
     done
 
     while true; do
@@ -71,7 +71,7 @@ prompt_menu() {
             echo "${options[$((selection-1))]}"
             return 0
         fi
-        echo -e "${RED}Invalid selection. Please choose 1-${#options[@]}${NC}"
+        echo -e "${RED}Invalid selection. Please choose 1-${#options[@]}${NC}" >&2
     done
 }
 
