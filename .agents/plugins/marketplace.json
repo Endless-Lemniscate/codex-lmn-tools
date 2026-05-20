@@ -1,0 +1,22 @@
+{
+  "name": "codex-lmn-tools",
+  "interface": {
+    "displayName": "Codex LMN Tools"
+  },
+  "plugins": [
+    {
+      "name": "security-auditor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Endless-Lemniscate/Codex-Security-Auditor-Plugin.git",
+        "ref": "main",
+        "sha": "63acbd4ac6c81cb0201cb61f4ea960eb96a69a20"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    }
+  ]
+}
